@@ -1,0 +1,22 @@
+.baradecima{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+   
+}
+.animated-button{
+    background-color: 3498db ;
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px ;
+    cursor: pointer;
+    transition: background-color 0.3 ease;  
+}
+.animated-button{
+    background-color: 2980b9;
+    transform: scale(1.1);
+}
+.animated-button:active{
+    
+}
