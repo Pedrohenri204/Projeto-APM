@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="PT-br">
 <head>
@@ -5,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="imagem/android-icon-192x192.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projeto AAPM</title>
 </head>
 <body>
-    <div class="baradecima">
+    <div class="barraRed">
         <a href="https://www.instagram.com/senai.sp">
             <img src="imagem/pngtree-instagram-black-amp.png" alt="" width="40px">
-            <button class="animated-button"> Clique em Mim</button>
-        </a>
+        </a> 
         <a href="https://www.facebook.com/senaisaopaulo">
             <img src="imagem/623dd7d270712bdafc63c38a.png" alt="" width="40px">
-            <button class="animated-button"> Clique em Mim</button>
         </a>
         <a href="https://twitter.com/senaisaopaulo">
             <img src="imagem/twitter-removebg-preview.png" alt="" width="40px">
-            <button class="animated-button"> Clique em Mim</button>
         </a>
         <a href="https://www.youtube.com/channel/UCaz1BMUVug86pd_uS598X1A">
             <img src="imagem/youtube-removebg-preview.png" alt="" width="40px">
-            <button class="animated-button"> Clique em Mim</button>
         </a>
     </div>
-</body>
+<div class="inicio">
+     <div class="serch-container">
+         <input type="text" id="search-input" placeholder="Pesquisar">
+         <button type="button" onclick="search()">Buscar</button>
+    </div>
+        <div id="search-results"></div>
+</div>
+<div class="corpo">
+    <h1>Hello</h1>
+</div>
+        <script src="./js/psq.js"></script>
+    </body>
 </html>
